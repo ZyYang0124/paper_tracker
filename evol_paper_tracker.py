@@ -25,14 +25,14 @@ DEFAULT_KEYWORDS = [
     "comparative genomics", "gene family evolution"
 ]
 
-DASHSCOPE_API_KEY = "sk-b4f203c2f81341abb3e8ea34445f9f0f"  # ← 替换为你自己的
+DASHSCOPE_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # ← 替换为你自己的
 
 EMAIL_CONFIG = {
     "smtp_server": "smtp.qq.com",
     "port": 465,
-    "sender_email": "1214631670@qq.com",
-    "password": "uktytxqmrccnidjb",
-    "receiver_email": "yangzy0124@gmail.com"
+    "sender_email": "yourname@qq.com",          # 发件人邮箱
+    "password": "your_16_digit_auth_code",      # 授权码（不是登录密码！）
+    "receiver_email": "recipient@example.com"   # 收件人邮箱
 }
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
